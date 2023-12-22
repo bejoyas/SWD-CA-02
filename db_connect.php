@@ -1,7 +1,7 @@
 <?php
 $servername = "localhost";
 $username = "swd";
-$password = "swd@1234";
+$password = getenv('DB_PASSWORD');
 $dbname = "swd";
 
 // Create connection
